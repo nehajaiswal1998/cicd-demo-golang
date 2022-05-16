@@ -15,7 +15,7 @@ func main() {
 	http.Handle("/", r)
 
 	// Bind to a port and pass our router in
-	log.Fatal(http.ListenAndServe(":8083", r))
+	log.Fatal(http.ListenAndServe(":8000", r))
 }
 
 // Output generates numbers randomly
